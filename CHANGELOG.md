@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.1] - 2025-02-08
+
+### Added
+- Enhanced documentation with comprehensive design principles and schema reference
+- Detailed development guide with prerequisites and build instructions
+- Complete examples for Python, Go, and C++ implementations
+
+### Changed
+- Merged comprehensive documentation from README_ampy-proto.md into main README.md
+- Updated all version references to 2.1.1 across documentation and package files
+- Improved repository structure and documentation organization
+
+### Fixed
+- Verified and confirmed resolution of protobuf descriptor corruption issues from v2.0.6
+- All language implementations (Python, Go, C++) tested and verified working correctly
+
 ## [2.0.9] - 2024-12-19
 
 ### Fixed

@@ -38,6 +38,8 @@ coverage/
 *.tmp
 *.temp
 *.log
+*.bak
+*~
 
 # Go specific
 *.exe
@@ -75,3 +77,6 @@ cmake_install.cmake
 Makefile
 *.cmake
 !CMakeLists.txt
+
+# Root-level executables (build artifacts)
+/smoke_test
